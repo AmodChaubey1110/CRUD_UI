@@ -32,7 +32,6 @@ let logout = ()=>{
 
 useEffect(()=>{
 axios.get("http://localhost:5000/get-details",{headers}).then((res)=>{
-  console.log("resss::",res?.data?.data);
   setUserList(res?.data?.data)
 }).catch((error)=>{})
 },[])
