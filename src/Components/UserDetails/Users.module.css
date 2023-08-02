@@ -1,0 +1,21 @@
+.main{
+        display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.users{
+    width: 80% ;
+    height: 80vh;
+}
+
+.Logout{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logoutButton{
+    height: 44px;
+    width: 100px;
+    border-radius: 5px;
+}
