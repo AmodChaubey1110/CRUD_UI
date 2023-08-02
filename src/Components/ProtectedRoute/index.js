@@ -6,7 +6,6 @@ const ProtectedRoute = () => {
 
   const outlet = useOutlet();
   let token = Cookies.get('token')
-  console.log(":::::::::::::::::::::::::::::::::",token);
 
   return <>{token ? [outlet] : <Navigate to="/" />}</>;
 };
